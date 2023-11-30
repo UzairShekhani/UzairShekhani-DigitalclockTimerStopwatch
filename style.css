@@ -12,10 +12,10 @@ body {
   justify-content: center;
   align-items: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
-  background: #464749;
-  background-image: url(WhatsApp\ Image\ 2023-11-24\ at\ 6.07.06\ PM.jpeg);
+  background: #e4e5e8;
+  /* background-image: url(WhatsApp\ Image\ 2023-12-01\ at\ 12.15.13\ AM.jpeg); */
   /* overflow: hidden; */
 }
 .container {
@@ -166,7 +166,7 @@ i {
   backdrop-filter: blur(1.5px);
   -webkit-backdrop-filter: blur(1.5px);
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid rgb(253, 253, 253);
   animation: bg-elem 10s linear infinite;
   transition: all 0.3s ease;
 }
@@ -192,6 +192,7 @@ i {
 h3{
   text-align: center;
   justify-content: center;
+  
 }
 @keyframes bg-elem {
   0% {
